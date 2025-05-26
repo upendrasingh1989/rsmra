@@ -1,0 +1,19 @@
+Welcome As screen:
+
+    Label1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =48
+        Size: =15
+        Text: ="Welcome to SRE App"
+        Width: =334
+        X: =393
+        Y: =243
+        ZIndex: =1
+
+    Button1 As button:
+        OnSelect: =Navigate('SRE Intake')
+        Text: ="Next"
+        X: =393
+        Y: =374
+        ZIndex: =2
+

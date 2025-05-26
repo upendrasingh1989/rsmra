@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7d812367-a554-4a5d-b793-dc7d8e0f5c7d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{03ee6982-b33b-4a1b-97e0-2a69d11ac457}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2fb8e56e-677f-4c90-8ff1-15ab38ea2650}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{571acca8-7113-4cc5-9e39-c3979f2dccc0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="rsm_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="rsm_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a8d591b-3fb7-46dc-abc8-7cad2f880950}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{820d23b3-1c2e-435f-b92a-6bc353b65631}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="rsm_address" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="rsm_address" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ddfcd049-785d-41c5-bf43-2b24a39766eb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="rsm_phone" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="rsm_phone" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6fcd55bc-726d-45b1-8399-a4b5b9de8e6c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="rsm_email" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="rsm_email" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "rsm_customers",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "rsm_customer",
+    "Name": "Customers",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "rsm_address": "Address",
+      "rsm_customer_Annotations": "Notes",
+      "rsm_customer_AsyncOperations": "System Jobs",
+      "rsm_customer_BulkDeleteFailures": "Bulk Delete Failures",
+      "rsm_customer_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "rsm_customer_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "rsm_customer_ProcessSession": "Process Sessions",
+      "rsm_customer_SyncErrors": "Sync Errors",
+      "rsm_customerid": "Customer",
+      "rsm_email": "Email",
+      "rsm_name": "Name",
+      "rsm_phone": "Phone",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Customers",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Customers (Views)",
+    "Name": "_rsm_customer_views",
+    "RelatedEntityName": "Customers",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "069f0ddd-bf2d-4c11-931a-2630e55dfb21": "Inactive Customers",
+      "09bd3337-7db4-41f7-a173-a5c4158c806b": "Customer Advanced Find View",
+      "1357c4bf-db27-4199-a00f-76a7ffc40cc9": "Customer Lookup View",
+      "3478c7ed-e146-4bfb-a61b-9ae001233193": "Customer Associated View",
+      "aefb4f28-2c77-4cc4-a029-a306887803dc": "Active Customers"
+    }
+  },
+  {
+    "DisplayName": "Status (Customers)",
+    "Name": "rsm_customer_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Customers"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Customers",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Customers)",
+    "Name": "rsm_customer_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Customers"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Customers",
+    "Type": "OptionSetInfo"
+  }
+]
